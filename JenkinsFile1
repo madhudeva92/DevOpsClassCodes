@@ -1,6 +1,6 @@
 pipeline{
     tools{
-        Git  'mygit'
+        git  'mygit'
         maven 'mymaven1'
     }
     agent none
